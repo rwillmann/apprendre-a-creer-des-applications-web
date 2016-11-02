@@ -8,7 +8,7 @@ Les éventuels errata de cette édition seront aussi disponibles ici.
 
 ## À propos du livre
 
-Le livre *Apprendre à créer des applications Web avec JavaScript - Node.js, MongoDB et le Cloud à portée de main* sortira en France le 13 mars 2017. Il a été écrit par [Romain Willmann][1] et est publié aux Editions Ellipses, dans la collection. Références Sciences
+Le livre *Apprendre à créer des applications Web avec JavaScript - Node.js, MongoDB et le Cloud à portée de main* sortira en France le 13 mars 2017. Il a été écrit par [Romain Willmann][1] et est publié aux Editions Ellipses, dans la collection Références Sciences.
 
 Il sera disponible dans la plupart des librairies universitaires et sur Internet.
 
