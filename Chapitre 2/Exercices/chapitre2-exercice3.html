@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- Une page avec deux boutons qui permettent de redimensionner une image-->
+<head>
+	<title>Exercice 3, chapitre 2</title>
+	<script>
+	   function plus() {
+	   document.getElementById("cible").width += 50 ;
+	   document.getElementById("cible").height += 50 ;
+	   }
+
+	   function moins() {
+	   document.getElementById("cible").width -= 50 ;
+	   document.getElementById("cible").height -= 50 ;
+	   }
+	</script>
+
+</head>
+<body>
+	<button onclick="plus()">Augmenter</button>
+	<button onclick="moins()">Réduire</button>
+	<img id="cible" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Ada_Lovelace.jpg">   
+</body>
+</html>
