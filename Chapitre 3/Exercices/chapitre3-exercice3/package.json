@@ -1,0 +1,21 @@
+{
+  "name": "chapitre3-exercice3",
+  "version": "1.0.0",
+  "description": "Corrigé complet de l'exercice 3 du chapitre 3 du livre Apprendre à créer des applications Web avec JavaScript (Ed. Ellipses)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwillmann/apprendre-a-creer-des-applications-web/"
+  },
+  "author": "Romain Willmann",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "swig": "^1.4.2"
+  }
+}
