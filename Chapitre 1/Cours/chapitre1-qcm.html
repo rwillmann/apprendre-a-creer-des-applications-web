@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!-- Une page avec un formulaire fait de deux éléments : un questionnaire à trois choix et un QCM qui admet plusieurs réponses -->
+
+	<body>
+	
+		<form>
+		
+			<!-- Une réponse avec deux réponses, mais une seule possible -->
+			<p>
+			Votre sexe:
+				<input type="radio" name="sexe" value="F"> féminin
+				
+				<input type="radio" name="sexe" value="H"> masculin
+			</p>
+			
+			<!-- Une réponse à choix multiple -->
+			<p>
+			Vous avez :<br>
+				<input type="checkbox" name="QCM" value="choix1"> Une voiture<br>
+
+				<input type="checkbox" name="QCM" value="choix2"> Une maison<br>
+				
+				<input type="checkbox" name="QCM" value="choix3"> Un bateau<br>
+			</p>
+			
+			<!-- Le bouton de validation. Il sera fonctionnel à partir du second chapitre -->
+			<p>
+				<input type="submit" value="Valider">
+			</p>
+			
+		</form>
+		
+	</body>
+
+</html>
