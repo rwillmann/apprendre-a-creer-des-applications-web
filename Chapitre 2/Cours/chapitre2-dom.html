@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!-- Manipulation de la structure d'une page HTML avec JavaScript-->
+<!-- Le Document Object Model est un concept très important pour compredre comment JavaScript et HTML interagissent https://dom.spec.whatwg.org/ -->
+
+	<head>
+		<script>
+			function image() {
+				var noeud = document.createElement("img") ;
+				noeud.setAttribute('src', 'http://img.wikinut.com/img/3vhq1ghw2g7b8dpm/jpeg/0/Nasa.jpeg');
+				document.body.appendChild(noeud) ;
+			}
+		</script>
+	</head>
+	
+	<body>
+		<button onclick = "image()"> Ajouter une image </button>
+	</body>
+
+</html>

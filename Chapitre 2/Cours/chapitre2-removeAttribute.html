@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!-- Suppression d'un attribut HTML en JavaScript (fonction removeAttribute)-->
+
+	<head>
+		<script>
+			function reveler(){
+				var cible = document.getElementById("c");
+				cible.removeAttribute("hidden");
+			}
+		</script>
+	</head>
+
+	<body>
+		Etes-vous majeur ?
+		<button id = "a" onclick ="reveler()"> Oui </button>
+		<button id = "b"> Non </button>
+		<button hidden = "" id = "c"> Continuer </button>
+	</body>
+</html>

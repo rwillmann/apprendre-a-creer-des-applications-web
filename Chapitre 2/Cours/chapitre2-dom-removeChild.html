@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<!-- Utilisation du DOM pour retirer un élément d'une page HTML (fonction removeChild) -->
+
+	<head>
+		<script>
+			function suppr() {
+				var noeudParent = document.getElementById("parent");
+				var noeudEnfant = document.getElementById("enfant");
+				noeudParent.removeChild(noeudEnfant);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div id="parent">
+			<img id="enfant" src="http://img.wikinut.com/img/3vhq1ghw2g7b8dpm/jpeg/0/Nasa.jpeg">
+		</div>
+		
+		<button onclick = "suppr()"> Supprimer </button>
+	</body>
+
+</html>

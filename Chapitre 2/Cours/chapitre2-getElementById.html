@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<!-- Récupération de la valeur d'un champ de saisie avec JavaScript-->
+
+	<head>
+		<script>
+			function recuperation(){
+				var saisie = document.getElementById("mon_champ");
+				alert(saisie.value);
+			}
+		</script>
+	</head>
+		
+	<body>
+		<form>
+			<input id = "mon_champ" type="text">
+			<button onclick = "recuperation();"> Cliquer ici </button>
+		</form>
+	</body>
+	
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!-- Utilisation du DOM pour ajouter un élément depuis une balise <div> d'une page HTML (fonction appendChild) -->
+
+	<head>
+		<script>
+			function image() {
+
+				var noeud = document.createElement("img");
+				noeud.setAttribute ("src","http://img.wikinut.com/img/3vhq1ghw2g7b8dpm/jpeg/0/Nasa.jpeg");
+
+				var divCible = document.getElementById("cible");
+				cible.appendChild(noeud);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<p>
+			Premier paragraphe
+		</p>
+		
+		<div id = "cible"></div>
+		
+		<p>
+			Second paragraphe
+		</p>
+
+		<button onclick = "image()"> Ajouter une image </button>
+	</body>
+
+</html>
