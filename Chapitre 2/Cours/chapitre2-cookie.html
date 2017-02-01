@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!-- Une page Web avec un cookie. Il est lu à l'aide de la fonction lireCookie() -->
+	
+	<head>
+		<script>
+		document.cookie = "ceci est un cookie";
+
+		function lireCookie() {
+			var cookie = document.cookie;
+			alert(cookie);
+		}
+		</script>
+	</head>
+
+	<body>
+		<button onclick = "lireCookie();"> Lire</button>
+	</body>
+
+</html>

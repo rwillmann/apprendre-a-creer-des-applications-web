@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+Il est possible de tocker tout type d'information dans le localStorage, y compris des objets. 
+Il faut dans ce cas effectuer une conversion avant d'écrire ou de lire l'information
+-->
+
+	<body>
+		<script>
+			var eleve = {
+				prenom : "Bob ",
+				mail : "bob@mail.com",
+				moyenne : 15
+			};
+			
+			// Conversion de l'objet en texte
+			localStorage.setItem("obj", JSON.stringify(eleve));
+
+			var texte = localStorage.getItem("obj");
+			
+			// Conversion du texte stocké en objet
+			texte = JSON.parse(text);
+			alert(texte.mail);
+		</script>
+	</body>
+
+</html>

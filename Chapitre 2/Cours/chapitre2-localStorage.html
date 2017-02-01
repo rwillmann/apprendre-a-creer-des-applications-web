@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+HTML5 ajoute une manière de stocker de l'information dans un navigateur : le localStorage. L'information est stockée tant que l'utilisateur ne la supprime pas
+On enregistre ici le nombre de fois où une page a été visitée et la date de la dernière visite
+Documentation complète du localStorage : https://developer.mozilla.org/fr/docs/Web/API/Window/localStorage
+-->
+
+<head>
+	<script>
+		var date = new Date();
+		
+		// La méthode setItem permet de stocker une paire clef-valeur dans le localStorage
+		var visite = localStorage.setItem("date", date.toString());
+		
+		// La méthode setItem permet de trouver la valeur associée à une clef
+		var i = Number(localStorage.getItem("compteur"));
+
+		if (i === null) {
+			i = 0;
+		} else {
+			i++;
+		}
+
+		localStorage.setItem("compteur", i);
+
+		document.write("<h1> Vous avez visité cette page " + i + " fois </h1> ");
+		document.write("Dernière visite le : " + date);
+	</script>
+</head>
+
+</html>

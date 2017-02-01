@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!-- Une page Web avec un cookie persistant, qui reste stocké par le navigateur après fermeture de la page-->
+
+	<head>
+		<script>// Nous créons 3 fonctions pour manipuler le cookie persistant		
+			// Enregistre dans le cookie la date actuelle
+			function actualiser() {
+				var i = 0;
+				var date = new Date();
+				document.cookie = "date = " + date.toString() + ";" + "expires = Thu, 01 Jan 2020 00:00:00 UTC";
+			}
+			
+			// Assigner une date passée au cookie permet de le supprimer
+			function effacer() {
+				document.cookie = "=; expires = Thu, 01 Jan 1970 00 : 00 : 00 UTC";
+			}
+			
+			// Affiche le contenu du cookie
+			function lire() {
+				var cookie = document.cookie;
+				alert(cookie);
+			}
+		</script>
+	</head>
+
+	<body>
+		<button onclick = "actualiser();"> Actualiser </button>
+		<button onclick = "lire();"> Lire </button>
+		<button onclick = "effacer();"> Effacer </button>
+	</body>
+</html>
