@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<!-- Un modèle de page pour Swig. Il contient des balises HTML standards et des éléments qui seront insérés dynamiquement -->
+	
+	<head>
+		<title>Un premier template Swig</title>
+	</head>
+	
+	<body>
+		
+		<!-- Les éléments entre accolades (également appelé 'Mustache template') sont ajoutés dynamiquement par l'application Node.js -->
+		<h1> {{titre}} </h1>
+
+		<p> Du texte </p>
+		
+		<!-- Il est possible d'insérer dynamiquement des attributs HTML -->
+		<p><a href={{lien}}> Ceci est un lien </a></p>
+		
+		<!-- Le mot-clef safe permet à Swig d'ajouter dynamiquement une balise à une page (désactivé par défaut par mesure de sécurité -->
+		{{balise|safe}}
+	</body>
+
+</html>

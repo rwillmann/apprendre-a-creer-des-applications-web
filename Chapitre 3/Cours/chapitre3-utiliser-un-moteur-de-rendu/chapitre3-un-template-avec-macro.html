@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!-- Un template avec une macro. C'est une boucle qui permet d'ajouter une multitude d'éléments à une page -->
+
+	<head>
+		<title> Un template avec une macro </title>
+	</head>
+
+	<body>
+		<h1>Les 5 premières écoles de commerce</h1>
+		<ul>
+			<!-- La macro : la première instruction permet de parcourir un tableau. Le second élément sera répété autant de fois que nécessaire -->
+			{% for ecole in ecoles %}
+				<li> {{ ecole }} </li>
+			{% endfor %}
+			<!-- Fin de la macro -->
+		</ul>
+	</body>
+
+</html>
