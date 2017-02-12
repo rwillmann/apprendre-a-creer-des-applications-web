@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<!-- Un formulaire qui permet d'envoyer un fichier vers un serveur -->
+
+	<head>
+		<title> Envoyer un fichier </title>
+	</head>
+
+	<body>
+		<!-- L'envoi se fait à l'aide d'un formulaire HTML usuel et des attributs enctype et type="file" -->
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			Fichier à envoyer :<br>
+			<input type="file" name="monFichier">
+			<input type="submit">
+		</form>
+	</body>
+
+</html>
