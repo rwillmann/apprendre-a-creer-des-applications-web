@@ -9,4 +9,4 @@ var eleve = {
 };
 
 // Lecture d'une propriété de l'objet
-console.log(eleve.mail)
+console.log(eleve.mail);

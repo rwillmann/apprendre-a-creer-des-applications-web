@@ -5,7 +5,7 @@
 var express = require("express");
 var swig = require("swig");
 
-app = express();
+var app = express();
 
 // Configuration d'Express pour qu'il fonctionne avec le moteur de rendu
 app.engine("html", swig.renderFile);

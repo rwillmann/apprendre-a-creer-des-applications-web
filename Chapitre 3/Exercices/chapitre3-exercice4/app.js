@@ -25,11 +25,11 @@ app.get("/b", function(req, res) {
 //Création d'une route GET pour rendre accessible la page d'accueil
 app.get("/", function(req, res) {
 
-	if(req.cookies.exo4 == "/a"){
+	if(req.cookies.exo4 === "/a"){
 		res.send("<a href='/a'>Page A visitée</a>");
 		res.end();
 	}
-	else if(req.cookies.exo4 == "/b"){
+	else if(req.cookies.exo4 === "/b"){
 		res.send("<a href='/b'>Page B visitée</a>");
 		res.end();
 	}

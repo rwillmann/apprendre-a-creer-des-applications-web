@@ -1,7 +1,7 @@
 var express = require("express");
 var swig = require("swig");
 
-app = express();
+var app = express();
 
 app.engine("html", swig.renderFile);
 app.set("view engine", "html");
