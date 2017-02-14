@@ -1,0 +1,19 @@
+{
+  "name": "chapitre3-protection-avec-helmet",
+  "version": "1.0.0",
+  "description": "Package pour la partie du chapitre 3 sur la sécurité et le protocole HTTPS",
+  "main": "chapitre3-protection-avec-helmet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwillmann/apprendre-a-creer-des-applications-web/"
+  },
+  "author": "Romain Willmann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "helmet": "^3.4.0"
+  }
+}
