@@ -1,0 +1,13 @@
+# Un exemple de manifest plus complet
+# Pour une liste de tous les attributs possibles : https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#optional-attributes
+---
+applications :
+- name : une-seconde-application
+ command : node app
+ # path permet de personnaliser l'URL de déploiement
+ path : url-de-test
+ # instance permet de choisir le nombre d'instances à déployer par défaut
+ instance : 2
+ # memory permet d'allouer une quantité de RAM par défaut aux machines virtuelles
+ memory : 128M
+…

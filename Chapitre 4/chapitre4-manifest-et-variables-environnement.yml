@@ -1,0 +1,14 @@
+# Il est possible de créer des variables d'environnement dans un manifest
+# Ces variables ne seront jamais stockées clairement mais peuvent être utilisées par une application
+# L'accès via le serveur se fait à l'aide de process.env.nom_variable
+# Cette méthode est très pratique pour fournir des clefs API ou des identifiants à une application
+---
+applications :
+- name : application-et-environnement
+ command : node app
+ env :
+  # process.env.VAR_A contient ici 120
+  VAR_A : 120
+  # process.env.VAR_B est une chaîne de texte
+  VAR_B : "hello world"
+…
