@@ -14,9 +14,7 @@ Le livre *Apprendre à créer des applications Web avec JavaScript - Node.js, Mo
 
 Il sera disponible dans la plupart des librairies universitaires et sur Internet.
 
-Retrouver le livre sur [Amazon][2] (disponible en précommande), [Decitre][3] ou encore à la [librairie Mollat][4].
+[![Acheter sur Amazon](readme_img/amazon-mid.png)](https://www.amazon.fr/Apprendre-Applications-Javascript-Node-Js-Mongodb/dp/2340016789/ref=sr_1_1?s=books&ie=UTF8&qid=1478104092&sr=1-1&keywords=9782340016781)
+
 
   [1]: https://fr.linkedin.com/in/rwillmann
-  [2]: https://www.amazon.fr/Apprendre-Applications-Javascript-Node-Js-Mongodb/dp/2340016789/ref=sr_1_1?s=books&ie=UTF8&qid=1478104092&sr=1-1&keywords=9782340016781
-  [3]: http://www.decitre.fr/livres/apprendre-a-creer-des-applications-web-avec-javascript-node-js-mongodb-et-le-cloud-a-portee-de-main-9782340016781.html
-  [4]: https://www.mollat.com/livres/1919340/romain-willmann-apprendre-a-creer-des-applications-web-avec-javascript-node-js-mongodb-et-le-cloud-a-portee-de-main
