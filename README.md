@@ -1,6 +1,7 @@
 # Apprendre à créer des applications Web avec JavaScript - Node.js, MongoDB et le Cloud à portée de main
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/de08830d93b24097b76819a8436dd614)](https://www.codacy.com/app/rwillmann/apprendre-a-creer-des-applications-web?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rwillmann/apprendre-a-creer-des-applications-web&amp;utm_campaign=Badge_Grade)
+[![Requirements Status](https://requires.io/github/rwillmann/apprendre-a-creer-des-applications-web/requirements.svg?branch=master)](https://requires.io/github/rwillmann/apprendre-a-creer-des-applications-web/requirements/?branch=master)
 
 Bienvenue sur le site compagnon du livre *Apprendre à créer des applications Web avec JavaScript - Node.js, MongoDB et le Cloud à portée de main*.
 
