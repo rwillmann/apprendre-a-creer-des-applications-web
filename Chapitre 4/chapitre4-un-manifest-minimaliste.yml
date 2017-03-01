@@ -4,5 +4,5 @@
 applications:
 # Le nom choisi doit être unique
 - name: un-nom-unique
-# La ligne command correspond à la commande tapée normalement dans une console pour lancer l'application
-  command: node app.js
+ # La ligne command correspond à la commande tapée normalement dans une console pour lancer l'application
+ command: node app.js

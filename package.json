@@ -1,0 +1,18 @@
+{
+  "name": "apprendre-a-creer-des-applications-web",
+  "version": "1.0.0",
+  "description": "Ce fichier liste toutes les dépendances utilisées dans le livre Apprendre à créer des applications Web de Romain Willmann. Elles s'installent avec la commande npm install",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwillmann/apprendre-a-creer-des-applications-web/"
+  },
+  "author": "Romain Willmann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+	"body-parser": "^1.16.1",
+	"multer": "^1.3.0",
+	"helmet": "^3.4.0",
+	"swig": "^1.4.2"
+  }
+}
