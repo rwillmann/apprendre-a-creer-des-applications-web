@@ -15,7 +15,7 @@ Le livre *Apprendre à créer des applications Web avec JavaScript - Node.js, Mo
 
 Il sera disponible dans la plupart des librairies universitaires et sur Internet.
 
-[![Acheter sur Amazon](readme_img/amazon-mid.png)](https://www.amazon.fr/Apprendre-Applications-Javascript-Node-Js-Mongodb/dp/2340016789/ref=sr_1_1?s=books&ie=UTF8&qid=1478104092&sr=1-1&keywords=9782340016781)
+[![Acheter sur Amazon](readme_img/amazon-mid.png)](https://amzn.to/2HwUZhR)
 
 
   [1]: https://fr.linkedin.com/in/rwillmann
